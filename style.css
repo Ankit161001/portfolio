@@ -1,0 +1,300 @@
+.header {
+    height: 80px;
+    background-color: #00004d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+body {
+    background-color: #000033;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-but {
+    background-color: #00004d;
+    color: #669999;
+    font-family: Consolas,monaco,monospace;
+    font-weight: 600;
+    width: 110px;
+    height: 60px;
+    font-size: 16px;
+    transition: 0.3s;
+    border: none;
+}
+
+.nav-but:hover {
+    color: #00e6b8;
+}
+
+.resume {
+    border-radius: 5px;
+    font-family: Consolas,monaco,monospace;
+    font-weight: 600;
+    width: 110px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #00004d;
+    color: #00e6b8;
+    border: 1px solid #00e6b8;
+    transition: 0.3s;
+}
+
+.resume:hover {
+    background-color: #00e6b8;
+    color: #006652;
+}
+
+.cont1 {
+    padding-top: 10px;
+    padding-left: 750px;
+}
+
+.doge {
+    border-radius: 50%;
+    width: 70%;
+}
+
+.image {
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 80px;
+}
+
+.side-pane {
+    width: 30px;
+    height: max-content;
+    position: fixed;
+    top: 370px;
+    left: 20px;
+}
+
+.logo {
+    fill: #669999;
+    padding-bottom: 20px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    fill: #00e6b8
+}
+
+.main-body {
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.hi {
+    font-family: Consolas,monaco,monospace;
+    color: #00e6b8;
+    font-size: 16px;
+}
+
+.name {
+    font-family: 'Gantari', sans-serif;
+    color: #a2cce1;
+    font-size: 56px;
+}
+
+.sub1 {
+    font-family: 'Gantari', sans-serif;
+    color: #7a9aaa;
+    font-size: 40px;
+}
+
+.sub2 {
+    font-family: 'Gantari', sans-serif;
+    color: #6a8492;
+    font-size: 18px;
+}
+
+.touch {
+    border-radius: 5px;
+    font-family: Consolas,monaco,monospace;
+    font-weight: 600;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    background-color: #000033;
+    color: #00e6b8;
+    border: 1px solid #00e6b8;
+    transition: 0.3s;
+}
+
+.touch:hover {
+    background-color: #00e6b8;
+    color: #006652;
+}
+
+.about {
+    margin-left: 300px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.head1 {
+    color: #00e6b8;
+    font-family: Consolas,monaco,monospace;
+    font-size: 20px;
+}
+
+.about-text {
+    font-family: 'Gantari', sans-serif;
+    color: #809faf;
+    font-size: 18px;
+}
+
+.picture-div {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.profile {
+    width: 60%;
+    border: 2px solid #00e6b8;
+}
+
+.ul-list {
+    display: flex;
+    color: #a2cce1; 
+}
+
+li {
+    list-style-type: square;
+    margin-bottom: 10px;
+}
+
+.exp {
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.exp-pos {
+    color: #a2cce1;
+    font-family: 'Gantari', sans-serif;
+    font-size: 20px;
+}
+
+.exp-com {
+    color: #00e6b8;
+    font-family: 'Gantari', sans-serif;
+    font-size: 20px;
+}
+
+.exp-date {
+    font-family: Consolas,monaco,monospace;
+    color: #809faf;
+    font-size: 18px;
+}
+
+.exp-text {
+    font-family: 'Gantari', sans-serif;
+    color: #809faf;
+    font-size: 18px;
+}
+
+.exp-content {
+    margin-bottom: 40px;
+}
+
+.highlight {
+    color: #a2cce1;
+}
+
+.work {
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.project {
+    width: 850px;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.pro-image {
+    width: 40%;
+}
+
+.pro-pic {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pro-content {
+    padding-left: 20px;
+    width: 60%;
+}
+
+.pro-head {
+    font-family: 'Gantari', sans-serif;
+    color: #00e6b8;
+    font-size: 23px;
+}
+
+.pro-desc {
+    width: 90%;
+    height: 120px;
+    background-color: #020256;
+    padding: 20px;
+    color: #a2cce1;
+    font-size: 18px;
+    font-family: 'Gantari', sans-serif;
+}
+
+.pro-logo {
+    fill: #00e6b8;
+    width: 5%;
+}
+
+.pro-tech {
+    color: #809faf;
+    font-family: Consolas,monaco,monospace;
+    font-size: 18px;
+}
+
+.contact {
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.con-head {
+    font-family: 'Gantari', sans-serif;
+    color: #a2cce1;
+    font-size: 33px;
+}
+
+.con-text {
+    font-family: 'Gantari', sans-serif;
+    color: #809faf;
+    font-size: 20px;
+}
+
+.con-btn {
+    border-radius: 5px;
+    font-family: Consolas,monaco,monospace;
+    font-weight: 600;
+    margin-bottom: 100px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    background-color: #000033;
+    color: #00e6b8;
+    border: 1px solid #00e6b8;
+    transition: 0.3s;
+}
+
+.con-btn:hover {
+    background-color: #00e6b8;
+    color: #006652;
+}
+
+.foot {
+    font-family: Consolas,monaco,monospace;
+    color: #809faf;
+    font-size: 20px;
+    margin-left: 40%;
+    padding-bottom: 40px;
+}
